@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt oss – Gryting Trelast / Gryting Sag</title>
+<meta name="description" content="Kontakt Gryting Trelast / Gryting Sag på Grytingveien 222, 4993 Sundebru. Telefon 95 92 99 14, e-post grytre@online.no.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#innhold">Hopp til innhold</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.4" opacity="0.5"/>
+        <circle cx="20" cy="20" r="13" stroke="currentColor" stroke-width="1.4" opacity="0.7"/>
+        <circle cx="20" cy="20" r="8" stroke="#B98A4E" stroke-width="1.6"/>
+        <circle cx="20" cy="20" r="2.4" fill="#B98A4E"/>
+      </svg>
+      <span class="brand-text">
+        <strong>Gryting Trelast</strong>
+        <span>Gryting Sag · Gryting</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Åpne meny" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <nav class="main-nav" aria-label="Hovedmeny">
+      <ul>
+        <li><a href="index.html">Forside</a></li>
+        <li><a href="tjenester.html">Tjenester</a></li>
+        <li><a href="om-oss.html">Om oss</a></li>
+        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="innhold">
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Ta kontakt</span>
+      <h1>Kontakt oss</h1>
+      <p>Send oss en melding, ring, eller stikk innom sagbruket på Gryting.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container grid-2">
+
+      <div>
+        <span class="eyebrow">Send melding</span>
+        <h2>Fortell oss om prosjektet</h2>
+        <form id="kontakt-skjema" novalidate>
+          <div class="form-field">
+            <label for="navn">Navn *</label>
+            <input type="text" id="navn" name="navn" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="epost">E-post *</label>
+            <input type="email" id="epost" name="epost" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="telefon">Telefon</label>
+            <input type="tel" id="telefon" name="telefon" autocomplete="tel">
+          </div>
+          <div class="form-field">
+            <label for="melding">Melding *</label>
+            <textarea id="melding" name="melding" rows="6" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send melding</button>
+          <p class="form-note">Meldingen åpnes i ditt eget e-postprogram, adressert til grytre@online.no, klar til å sendes.</p>
+          <p id="form-status" class="form-status" role="status"></p>
+        </form>
+      </div>
+
+      <div>
+        <div class="info-card">
+          <h3>Kontaktinformasjon</h3>
+          <ul class="fact-list">
+            <li><span>Adresse</span><span>Grytingveien 222,<br>4993 Sundebru</span></li>
+            <li><span>Telefon</span><span><a href="tel:+4795929914">95 92 99 14</a></span></li>
+            <li><span>E-post</span><span><a href="mailto:grytre@online.no">grytre@online.no</a></span></li>
+            <li><span>Kontaktperson</span><span>Torbjørn Pedersen</span></li>
+            <li><span>Facebook</span><span><a href="https://www.facebook.com/profile.php?id=100057586205323" target="_blank" rel="noopener">Gryting Trelast / Gryting Sag</a></span></li>
+          </ul>
+        </div>
+        <div class="map-shell">
+          <iframe
+            title="Kart til Gryting Trelast / Gryting Sag, Grytingveien 222, 4993 Sundebru"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=9.0350%2C58.8200%2C9.0750%2C58.8400&layer=mapnik&marker=58.8298%2C9.0550"
+            loading="lazy">
+          </iframe>
+        </div>
+        <p style="margin-top:10px;"><a class="btn-outline on-light" style="text-decoration:underline;font-size:0.9rem;" href="https://www.openstreetmap.org/?mlat=58.8298&mlon=9.0550#map=14/58.8298/9.0550" target="_blank" rel="noopener">Åpne større kart →</a></p>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Gryting Trelast / Gryting Sag</h4>
+        <p style="max-width:34ch;color:#C9C0A4;">Sagbruk på Gryting, Gjerstad kommune – trelast, kledning og bygningsvirke saget og høvlet der du bor.</p>
+      </div>
+      <div>
+        <h4>Snarveier</h4>
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="tjenester.html">Tjenester</a></li>
+          <li><a href="om-oss.html">Om oss</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:+4795929914">95 92 99 14</a></li>
+          <li><a href="mailto:grytre@online.no">grytre@online.no</a></li>
+          <li>Grytingveien 222, 4993 Sundebru</li>
+          <li><a href="https://www.facebook.com/profile.php?id=100057586205323" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Gryting Trelast AS / Gryting Sag AS</span>
+      <span>Grytingveien 222, 4993 Sundebru</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
